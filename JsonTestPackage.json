@@ -1,0 +1,22 @@
+{
+  "name": "TestFromJson",
+  "description": "Laborum in occaecat deserunt qui pariatur id aute enim ullamco adipisicing amet sint cillum eu. Commodo laboris quis duis est. Ex non laboris qui et officia anim est veniam fugiat exercitation magna consequat. Laborum exercitation qui qui consectetur qui elit. Labore mollit culpa eu minim occaecat tempor aute minim cillum pariatur officia ex. Mollit anim do officia quis aliquip do consequat id esse aute deserunt id.",
+  "installation": {
+    "adapter": "pak/adapter-ps1",
+    "file": "url:https://raw.githubusercontent.com/LDevs-Team/cdn/main/JsonTestPackage-install.ps1",
+    "needsReboot": false
+  },
+  "uninstallation": {
+    "supported": true,
+    "adapter": "pak/adapter-batch",
+    "file": "url:https://raw.githubusercontent.com/LDevs-Team/cdn/main/JsonTestPackage-uninstall.bat",
+    "needsReboot": false
+  },
+  "update": {
+    "supported": true,
+    "adapter": "pak/adapter-batch",
+    "file": "url:https://raw.githubusercontent.com/LDevs-Team/cdn/main/JsonTestPackage-upgrade.bat",
+    "needsReboot": false
+  }
+
+}
